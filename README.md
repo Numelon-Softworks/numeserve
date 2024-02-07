@@ -3,14 +3,13 @@ numeserve is your helper to quickly start up a production Linux server with indu
 
 For now, it is currently being used internally within Numelon to set up its servers.
 
-# 🖥️ Supported Linux Distributions
-| | **Name**   |
-|-| -----------|
-| ![Debian Logo](https://www.debian.org/logos/openlogo-nd.svg) | Debian     |
-| ![Ubuntu Logo](https://www.svgrepo.com/show/452122/ubuntu.svg) | Ubuntu     |
-| ![Linxu Mint Logo](https://raw.githubusercontent.com/linuxmint/brand-logo/master/leaf.svg) | Linux Mint |
+# 🖥️ Supported Linux distributions
+|                                                                                            | **Name**   | **Support** |
+|--------------------------------------------------------------------------------------------| -----------|-------------|
+| ![Linxu Mint Logo](https://raw.githubusercontent.com/linuxmint/brand-logo/master/leaf.svg) | Linux Mint | Partial     |
 
-# 📦 Included Software
-| **Name**                   | **Description**     |
-|----------------------------|---------------------|
-| [nginx](https://nginx.org) | Powerful web server |
+# 📦 Included software
+| **Name**                   | **Description**                   | **Purpose**                                      |
+|----------------------------|-----------------------------------|--------------------------------------------------|
+| [nginx](https://nginx.org) | Powerful web server               | Proxy for backend & generic CDN file serving     |
+| [Luvit](https://luvit.io)  | Terrific Asynchronous I/O for Lua | Numelon Backend                                  |
